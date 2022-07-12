@@ -1,10 +1,13 @@
 import './App.css';
-import TypesofFood from './Components/TypesofFood';
+import Child from './Components/Child';
+
 
 function App() {
   return (
     <div className="container">
-    <TypesofFood/>
+    <Child state = "DEFAULT"/>
+    <Child state = "BAR"/>
+    <Child state = "FOO"/>
     </div>
   );
 }
