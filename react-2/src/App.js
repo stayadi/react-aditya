@@ -1,13 +1,15 @@
 import './App.css';
-import Child from './Components/Child';
+
+import CurrentDate from './Components/CurrentDate';
 
 
 function App() {
+  
   return (
     <div className="container">
-    <Child state = "DEFAULT"/>
-    <Child state = "BAR"/>
-    <Child state = "FOO"/>
+      <h2>What Date is it ? </h2>
+      <CurrentDate currDate = {new Date() + ''}/>
+     
     </div>
   );
 }
