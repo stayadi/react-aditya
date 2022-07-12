@@ -1,14 +1,11 @@
 import './App.css';
-
-import CurrentDate from './Components/CurrentDate';
-
+import MyComponents from './Components/MyComponents';
 
 function App() {
   
   return (
     <div className="container">
-      <h2>What Date is it ? </h2>
-      <CurrentDate currDate = {new Date() + ''}/>
+       <MyComponents/>
      
     </div>
   );
